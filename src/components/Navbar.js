@@ -25,7 +25,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className="relative bg-gradient-to-r from-green-400 to-blue-400 py-3 px-6 flex flex-col md:flex-row space-y-4  md:space-y-0 md:justify-between  items-center text-white shadow-md">
+      <div className="relative bg-gradient-to-r from-green-400 to-blue-400 py-3 px-6 flex flex-col md:flex-row md:space-x-8 space-x-0 space-y-4  md:space-y-0 md:justify-between items-center text-white shadow-md">
         <div className="flex items-center space-x-2">
           <FontAwesomeIcon icon={faEnvelope} className="text-white text-base" />
           <p className="text-sm font-medium tracking-wide">
