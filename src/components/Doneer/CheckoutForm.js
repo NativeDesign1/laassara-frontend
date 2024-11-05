@@ -19,7 +19,7 @@ const CheckoutForm = ({ amount }) => {
     const { error } = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: 'https://localhost:3000/doneer',  // Replace with your return URL
+        return_url: 'https://www.laassarafoundation.nl/doneer',  // Replace with your return URL
       },
     });
 
